@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Technion Moodle Auto Login",
+    "description": "Automatically signs in to moodle when login button is present",
+    "version": "1.0",
+    "background": {
+        "scripts": ["main.js"]
+    },
+    "permissions": [
+        "tabs",
+        "https://moodle.technion.ac.il/",
+        "https://login.microsoftonline.com/",
+        "https://techwww.technion.ac.il/tech_ident/"
+    ]
+}
